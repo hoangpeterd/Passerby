@@ -1,0 +1,26 @@
+body {
+	background:
+	    /* top, transparent black, faked with gradient */
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        /* bottom, image */
+        url(../images/passerbyBG.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*logo absolute centered*/
+#logo {
+	position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;
+	margin:auto;
+
+	max-width:100%;
+	max-height:100%;
+	overflow:auto;
+}
